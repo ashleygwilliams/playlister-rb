@@ -9,9 +9,12 @@ require_relative 'song'
 require_relative 'genre'
 require_relative 'parser'
 
-parse_directory('/Users/avi/Development/code/playlister-rb/data')
+parse_directory('/Users/ashleyashley/Projects/playlister-rb/data')
 
-puts "Welcome to the playlist!!!"
+puts "Welcome to the playlist!"
+puts "Browse artists, genres, and songs by typing `browse <type>`"
+puts "For help type `help`, to exit type `exit`."
+puts "~~~/~~~"
 puts "Please enter a command:"
 
 command = ""
